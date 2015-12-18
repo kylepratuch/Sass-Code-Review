@@ -54,4 +54,26 @@ body {
       padding: 0.5em 1em 0.5em 1em;
       font-weight: bold; }
 
+.main-banner {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/banner.jpg");
+  background-size: 100%; }
+  .main-banner:last-child {
+    margin-right: 0; }
+.main-pitch {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.2em;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  padding: 11% 25% 11% 25%; }
+  .main-pitch img {
+    border: 1px solid #0080FF;
+    background-color: #0080FF;
+    padding: 0.5em 1.5em 0.5em 1.5em; }
+
 /*# sourceMappingURL=application.css.map */

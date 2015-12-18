@@ -34,3 +34,26 @@
     }
   }
 }
+
+.main {
+  &-banner {
+    @include span-columns(12);
+    background:
+      linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)),
+      url('../img/banner.jpg');
+    background-size:100%;
+  }
+
+  &-pitch {
+    @include custom-text($stack-sans-serif, 2.2em, uppercase, $color-text-light);
+    font-weight:bold;
+    text-align:center;
+    padding:11% 25% 11% 25%;
+
+      img {
+        @include buttonize($color-btn-blue);
+      }
+    }
+}
