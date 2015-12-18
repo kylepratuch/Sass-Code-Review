@@ -1,0 +1,7 @@
+//Mixins
+@mixin custom-text($family, $size, $transformation, $color) {
+  font-family: $family;
+  font-size: $size;
+  text-transform: $transformation;
+  color: $color;
+}

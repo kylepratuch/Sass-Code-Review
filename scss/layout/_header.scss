@@ -1,0 +1,36 @@
+.nav {
+  &-wrapper {
+    @include span-columns(12);
+    @include clearfix;
+    width:100%;
+    padding:1em;
+  }
+  &-logo {
+    @include span-columns(6 of 12);
+
+    >img {
+      @include size(14em auto);
+    }
+  }
+  &-links {
+    @include span-columns(6 of 12);
+
+    ul {
+      text-align: right;
+    }
+
+    li {
+      @include custom-text($monospace, 0.9em, uppercase, $color-text-dark);
+      display:inline;
+      text-decoration:none;
+      text-align:center;
+      padding-right: 2em;
+
+      &:nth-child(5){
+        border: 2px solid $color-text-dark;
+        padding: 0.5em 1em 0.5em 1em;
+        font-weight:bold;
+      }
+    }
+  }
+}

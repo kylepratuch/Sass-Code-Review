@@ -2,9 +2,11 @@
 // Global Imports
 //==========================
 
-//Bourbon
-@import 'bourbon/bourbon';
-@import 'neat/neat';
+//Bourbon + Neat
+@import 'plugins/bourbon/bourbon';
+@import 'plugins/neat/neat';
 
 //Custom
+@import 'base/index';
 @import 'components/index';
+@import 'layout/index';

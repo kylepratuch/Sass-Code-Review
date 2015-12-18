@@ -1,20 +1,18 @@
 //Descriptive color variables
 $white      : #fff;
-$lightgray  : #999999;
-$gray       : #4c4c4c;
-$darkgray   : #323232;
+$darkgray   : #404040;
 $blue       : #0080FF;
 $navyblue   : #323299;
-$aqua       : ##00CDCD;
+$aqua       : #00CDCD;
 
 //Functional color variables
 $color-text-light   : $white;
-$color-text-medium  : $lightgray;
+$color-text-medium  : lighten($darkgray, 35%);
 $color-text-dark    : $darkgray;
 $color-text-title   : $navyblue;
 
 $color-bg-basic     : $white;
-$color-bg-contact   : $gray;
+$color-bg-contact   : lighten($darkgray, 10%);
 $color-bg-footer    : $darkgray;
 
 $color-btn-blue     : $blue;
