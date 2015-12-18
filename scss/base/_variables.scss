@@ -1,0 +1,27 @@
+//Descriptive color variables
+$white      : #fff;
+$lightgray  : #999999;
+$gray       : #4c4c4c;
+$darkgray   : #323232;
+$blue       : #0080FF;
+$navyblue   : #323299;
+$aqua       : ##00CDCD;
+
+//Functional color variables
+$color-text-light   : $white;
+$color-text-medium  : $lightgray;
+$color-text-dark    : $darkgray;
+$color-text-title   : $navyblue;
+
+$color-bg-basic     : $white;
+$color-bg-contact   : $gray;
+$color-bg-footer    : $darkgray;
+
+$color-btn-blue     : $blue;
+$color-btn-teal     : $aqua;
+
+//Font stacks
+$stack-sans-serif : 'Open Sans', sans-serif;
+
+//Asset paths
+$path-img : '../img';
