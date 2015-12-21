@@ -146,4 +146,36 @@ body {
     text-transform: uppercase;
     text-decoration: none; }
 
+.footer-wrapper {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  background: #5a5a5a; }
+  .footer-wrapper:last-child {
+    margin-right: 0; }
+  .footer-wrapper form {
+    width: 20%;
+    margin: auto;
+    padding-top: 1em; }
+  .footer-wrapper input {
+    border: 1px solid white;
+    padding: 1.2em; }
+  .footer-wrapper button {
+    border: 1px solid #0080FF;
+    background-color: #0080FF;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    color: #fff; }
+
+.icons {
+  width: 15%;
+  margin: auto;
+  padding-top: 1em; }
+  .icons i {
+    background: white;
+    padding: 1em; }
+
 /*# sourceMappingURL=application.css.map */

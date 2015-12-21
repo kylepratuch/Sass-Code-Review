@@ -1,0 +1,31 @@
+.footer-wrapper {
+  @include span-columns(12);
+  background:$color-bg-contact;
+
+  form {
+    width:20%;
+    margin:auto;
+    padding-top:1em;
+  }
+
+  input {
+    border:1px solid white;
+    padding:1.2em;
+  }
+
+  button {
+    @include buttonize($color-btn-blue);
+    @include custom-text($stack-sans-serif, 1.1em, uppercase, $color-text-light);
+  }
+}
+
+//Contact
+.icons {
+  width:15%;
+  margin:auto;
+  padding-top:1em;
+  i {
+    background:white;
+    padding:1em;
+  }
+}
