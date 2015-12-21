@@ -35,9 +35,12 @@
   width:100%;
   background:$color-bg-footer;
   color:$color-text-medium;
-  text-align:center;
 
   a {
     color:$color-text-medium;
+  }
+
+  p {
+    text-align:center;
   }
 }

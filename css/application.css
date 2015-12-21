@@ -181,9 +181,10 @@ body {
 .footer-text {
   width: 100%;
   background: #404040;
-  color: #999999;
-  text-align: center; }
+  color: #999999; }
   .footer-text a {
     color: #999999; }
+  .footer-text p {
+    text-align: center; }
 
 /*# sourceMappingURL=application.css.map */
