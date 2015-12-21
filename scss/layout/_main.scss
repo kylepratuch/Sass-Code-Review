@@ -1,3 +1,10 @@
+//Main container:
+.main-container {
+  max-width:1400px;
+  width:100%;
+  margin:auto;
+}
+
 //Testimonials:
 .testimonials {
   &-wrapper {
@@ -19,11 +26,24 @@
     @include span-columns(12);
     @include clearfix;
     width:100%;
-    padding: 5em;
+    padding: 7em;
     border-top:1px solid lightgray;
   }
   &-students,
   &-employers {
     @include span-columns(6 of 12);
+    font-size:1.1em;
+
+    h4 {
+      color:$color-text-title;
+      font-size:1.8em;
+    }
+    a {
+      @include buttonize($aqua);
+      align:center;
+      color:white;
+      text-transform:uppercase;
+      text-decoration:none;
+    }
   }
 }
