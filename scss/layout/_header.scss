@@ -20,7 +20,7 @@
     }
 
     li {
-      @include custom-text($monospace, 0.9em, uppercase, $color-text-dark);
+      @include custom-text($stack-sans-serif, 0.9em, uppercase, $color-text-dark);
       display:inline;
       text-decoration:none;
       text-align:center;

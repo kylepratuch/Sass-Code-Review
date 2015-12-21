@@ -1,0 +1,29 @@
+//Testimonials:
+.testimonials {
+  &-wrapper {
+    @include span-columns(12);
+    @include clearfix;
+    width:100%;
+    padding:1em;
+  }
+  &-one,
+  &-two,
+  &-three {
+    @include span-columns(4 of 12);
+  }
+}
+
+//Clients
+.clients {
+  &-wrapper {
+    @include span-columns(12);
+    @include clearfix;
+    width:100%;
+    padding: 5em;
+    border-top:1px solid lightgray;
+  }
+  &-students,
+  &-employers {
+    @include span-columns(6 of 12);
+  }
+}

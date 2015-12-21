@@ -2,3 +2,21 @@ body {
   font-family: $stack-sans-serif;
   color: $color-text-dark;
 }
+
+.testimonials {
+  &-wrapper {
+  font-size:1.1em;
+  }
+
+  &-one,
+  &-two,
+  &-three {
+    h4 {
+      @include custom-text($stack-sans-serif, 1.2em, uppercase, $color-text-dark);
+    }
+
+    p:nth-child(2) {
+      font-style:italic;
+    }
+  }
+}
