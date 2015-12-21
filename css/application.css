@@ -178,4 +178,12 @@ body {
     background: white;
     padding: 1em; }
 
+.footer-text {
+  width: 100%;
+  background: #404040;
+  color: #999999;
+  text-align: center; }
+  .footer-text a {
+    color: #999999; }
+
 /*# sourceMappingURL=application.css.map */

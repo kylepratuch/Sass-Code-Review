@@ -29,3 +29,15 @@
     padding:1em;
   }
 }
+
+//Footer
+.footer-text {
+  width:100%;
+  background:$color-bg-footer;
+  color:$color-text-medium;
+  text-align:center;
+
+  a {
+    color:$color-text-medium;
+  }
+}
